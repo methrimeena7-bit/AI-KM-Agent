@@ -23,4 +23,4 @@ A full-stack, offline-first AI agent that automatically converts raw documentati
 ### 🔄 Project Pipeline Flow
 ```mermaid
 graph LR
-    A[SharePoint Request] ➔ B[AI Drafting] ➔ C[SME Review] ➔ D[Published to KM]
+    A[SharePoint Request] --> B[AI Drafting] --> C[SME Review] --> D[Published to KM]
